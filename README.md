@@ -121,6 +121,6 @@ pytest
 
 Please cite the accompanying HyperCEF manuscript. Bibliographic details can be updated in `CITATION.cff` after publication.
 
-## License before public release
+## License
 
-The copyright holders should select and add an OSI-approved license before making this repository public. No license is assigned automatically by this source package.
+No open-source license has been assigned. Standard copyright restrictions apply until the copyright holders select and add a license.
