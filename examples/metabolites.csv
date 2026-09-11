@@ -1,0 +1,9 @@
+metabolite_id,smiles
+glucose,OCC1OC(O)C(O)C(O)C1O
+pyruvate,CC(=O)C(=O)O
+lactate,CC(O)C(=O)O
+acetate,CC(=O)O
+ethanol,CCO
+succinate,O=C(O)CCC(=O)O
+fumarate,O=C(O)/C=C/C(=O)O
+malate,O=C(O)CC(O)C(=O)O

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use HyperCEF, please cite the accompanying manuscript."
+title: "HyperCEF: Hypergraph-Based Context Encoding and Fusion for Chassis-Based Reaction Feasibility Prediction"
+type: software
+version: 1.0.0
+date-released: 2026-09-11
+repository-code: "https://github.com/freddieyang/HyperCEF"
+authors:
+  - family-names: Yang
+    given-names: Feng
+    orcid: "https://orcid.org/0000-0003-2193-8551"
+  - family-names: Cai
+    given-names: Yueyi
+    orcid: "https://orcid.org/0009-0004-3713-523X"
+  - family-names: Huang
+    given-names: Weihong
+    orcid: "https://orcid.org/0009-0007-8004-4255"
+  - family-names: Liu
+    given-names: Juan
+    orcid: "https://orcid.org/0000-0001-9344-7415"

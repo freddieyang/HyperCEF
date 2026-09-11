@@ -1,0 +1,20 @@
+{
+  "model": {
+    "hidden_channels": 768,
+    "out_channels": 1,
+    "dropout": 0.05,
+    "num_layers": 2,
+    "heads": 2,
+    "max_boundary_prototypes": 512,
+    "boundary_topk": 8,
+    "use_identity_skip": false
+  },
+  "training": {
+    "epochs": 50,
+    "batch_size": 512,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0005,
+    "independent_weight": 0.5,
+    "seed": 42
+  }
+}

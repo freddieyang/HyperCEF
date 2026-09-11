@@ -1,0 +1,9 @@
+reaction_id,group,metabolite_ids
+native_1,native,glucose;pyruvate
+native_2,native,pyruvate;lactate
+native_3,native,pyruvate;acetate
+native_4,native,succinate;fumarate
+absent_1,chassis_absent,pyruvate;ethanol
+absent_2,chassis_absent,fumarate;malate
+perturbed_1,perturbed,glucose;malate
+perturbed_2,perturbed,lactate;succinate

@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hypercef"
+version = "1.0.0"
+description = "Hypergraph-based context encoding and fusion for chassis-based reaction feasibility prediction"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.24",
+  "rdkit>=2023.9",
+  "scikit-learn>=1.3",
+  "torch>=2.1",
+  "torch-geometric>=2.5",
+]
+
+[project.urls]
+Repository = "https://github.com/freddieyang/HyperCEF"
+
+[project.optional-dependencies]
+test = ["pytest>=7.4"]
+
+[tool.setuptools.packages.find]
+include = ["hypercef*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
